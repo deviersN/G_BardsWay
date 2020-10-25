@@ -6,30 +6,20 @@
 	</head>
 	<body>
 		<div class="sidenav">
-			<script type="text/tiscript">
-
-				$(button#home).on("click", function() {
-
-					$.get("./home.html", function (data) {
-						$("#main").append(data);
-					});
-				});
-			</script>
-
 			<a href="#">
 				<img src="../resources/logo2.PNG" class="logo" alt="nav_logo"
 				height="90px" width="90px" />
 			</a>
-			<a href="#" #home class="active">
-				<img src="../resources/music_b.svg" alt="accueil"
+			<a href="./home.html" #home class="inactive">
+				<img src="../resources/music_w.svg" alt="accueil"
 				height="30px" width="30px" /><br />ACCUEIL
 			</a>
 			<a href="./results.html" #results class="inactive">
 				<img src="../resources/check_w.svg" alt="resultats"
 				height="30px" width="30px" /><br />RESULTATS
 			</a>
-			<a href="./options.html" #options class="inactive" id="last">
-				<img src="../resources/gear_w.svg" alt="options"
+			<a href="#" #options class="active" id="last">
+				<img src="../resources/gear_b.svg" alt="options"
 				height="30px" width="30px" /><br />OPTIONS
 			</a>
 		</div>

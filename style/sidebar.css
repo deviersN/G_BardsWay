@@ -9,26 +9,30 @@
 	background-color: #2B2B2B; /* Black */
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 20px;
-  }
+}
 
 /* The navigation menu links */
 .sidenav a {
-	padding: 6px 8px 30px 6px;
+	padding: 6px 8px 6px 6px;
+	margin-bottom: 40px;
 	text-decoration: none;
-	color: #818181;
 	display: block;
 	text-align: center;
 	font-size: 20px;
 }
 
 #last {
-	padding-top: 400px;
+	margin-top: 350px;
 }
 
 .active {
 	color: #43BCB5;
 }
-  
+
+.inactive {
+	color: #818181;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
 	color: #43BCB5;

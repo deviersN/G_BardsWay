@@ -6,26 +6,35 @@
 	</head>
 	<body>
 		<div class="sidenav">
-<!--			<img src="../resources/rectangle_logo.svg" alt="nav_logo" height="30px" width="30px" />-->
+			<script type="text/tiscript">
 
-			<a href="#"> 
+				$(button#home).on("click", function() {
+
+					$.get("./home.html", function (data) {
+						$("#main").append(data);
+					});
+				});
+			</script>
+
+			<a href="#">
 				<img src="../resources/logo2.PNG" class="logo" alt="nav_logo"
 				height="90px" width="90px" />
 			</a>
-			<a href="#" class="inactive">
-				<img src="../resources/music_w.svg" alt="accueil"
+			<a href="#" #home class="active">
+				<img src="../resources/music_b.svg" alt="accueil"
 				height="30px" width="30px" /><br />ACCUEIL
 			</a>
-			<a href="#" class="inactive">
+			<a href="#" #results class="inactive">
 				<img src="../resources/check_w.svg" alt="resultats"
 				height="30px" width="30px" /><br />RESULTATS
 			</a>
-			<a href="#" class="inactive" id="last">
+			<a href="#" #options class="inactive" id="last">
 				<img src="../resources/gear_w.svg" alt="options"
 				height="30px" width="30px" /><br />OPTIONS
 			</a>
 		</div>
-		<div class="main">
+		<div id="main">
+			<home></home>
 			<h1>Bard's Way's Fantastic software, yaasss !!!</h1>
 			<button>Useless button</button>
 			<p>Background</p>

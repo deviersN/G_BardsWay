@@ -3,7 +3,7 @@ html {
 	height: 800px;
 }
 
-.main {
+#main {
 	margin-left: 120px; /* Same as the width of the sidebar */
 	padding: 0px 10px;
 }
