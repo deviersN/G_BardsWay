@@ -2,23 +2,14 @@
 	<head>
 		<title>Bard's Way</title>
 		<link rel="stylesheet" href="../style/main.css">
+		<link rel="stylesheet" href="../style/home.css">
 		<link rel="stylesheet" href="../style/sidebar.css">
 	</head>
 	<body>
 		<div class="sidenav">
-			<script type="text/tiscript">
-
-				$(button#home).on("click", function() {
-
-					$.get("./home.html", function (data) {
-						$("#main").append(data);
-					});
-				});
-			</script>
-
 			<a href="#">
 				<img src="../resources/logo2.PNG" class="logo" alt="nav_logo"
-				height="90px" width="90px" />
+				height="70px" width="70px" />
 			</a>
 			<a href="#" #home class="active">
 				<img src="../resources/music_b.svg" alt="accueil"
@@ -34,10 +25,24 @@
 			</a>
 		</div>
 		<div id="main">
-			<home></home>
-			<h1>Bard's Way's Fantastic software, yaasss !!!</h1>
-			<button>Useless button</button>
-			<p>Background</p>
+			<div class="progressBar">
+				<progress max="100" value="7" />
+				<a href="#" #loadWav id="loadWav">
+					<img src="../resources/file_b.svg" alt="accueil"
+					height="30px" width="30px" /><br />CHOISIR LA<br />MUSIQUE
+				</a>
+				<a href="#" #launch id="launch">
+					<img src="../resources/rocket_n.svg" alt="accueil"
+					height="30px" width="30px" /><br />LANCER LE<br />PROGRAMME
+				</a>
+			</div>
+			<div class="filePath">
+				<p>What music do you want to treat ?</p>
+			</div>
+			<div id="outSpleeter"></div>
+			<div id="outEmul"></div>
+			<div id="outError"></div>
+
 			<div class="background">
 				<img src="../resources/mountain.png" alt="background"
 				height="300px" width="1180px" >
