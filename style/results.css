@@ -1,0 +1,55 @@
+#wavLoader {
+	position: absolute;
+	top: 5%;
+	left: 12%;
+	width: 50%;
+	height: 20%;
+	background: #FFFFFF;
+	border-radius: 15px;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.computedWav {
+	margin: 15% 5% 0 5%;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#wavLoader a div figcaption {
+	text-decoration: none;
+	color: #2B2B2B;
+}
+
+#pdfLoader {
+	position: absolute;
+	top: 5%;
+	left: 68%;
+	width: 29%;
+	height: 90%;
+	overflow-y: auto;
+	font-size: 20px;
+}
+
+.pdf {
+	left: 5%;
+}
+
+.liner {
+	position: absolute;
+	border: 1px solid #c8c8c8;
+}
+
+.horizontal {
+	width: 53%;
+	height: 0%;
+	top: 30%;
+	left: 12%;
+}
+
+.vertical {
+	width: 0%;
+	height: 90%;
+	top: 5%;
+	left: 65%;
+}
