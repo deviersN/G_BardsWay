@@ -1,0 +1,77 @@
+#main input {
+	position: absolute;
+	left: 10%;
+	width: 70%;
+	height: 5%;
+}
+
+#locffmpeg {
+	top: 15%;
+}
+
+#locmodelR {
+	top: 25%;
+}
+
+#locmodelS {
+	top: 35%;
+}
+
+#locresult {
+	top: 45%;
+}
+
+#main a {
+	position: absolute;
+	left: 82%;
+	width: 60%;
+	text-decoration: none;
+	color: #2B2B2B;
+}
+
+#brffmpeg {
+	top: 15%;
+}
+
+#brmodelR {
+	top: 25%;
+}
+
+#brmodelS {
+	top: 35%;
+}
+
+#brresult {
+	top: 45%;
+}
+
+#save {
+	position: absolute;
+	left: 82%;
+	top: 85%;
+}
+
+#main p {
+	position: absolute;
+	left: 10%;
+	width: 60%;
+	text-decoration: none;
+	color: #2B2B2B;
+	font-style: italic ;
+}
+
+#titffmpeg {
+	top: 10%;
+}
+
+#titmodelR {
+	top: 20%;
+}
+
+#titmodelS {
+	top: 30%;
+}
+
+#titresult {
+	top: 40%;
+}

@@ -14,15 +14,15 @@
 /* The navigation menu links */
 .sidenav a {
 	padding: 6px 8px 6px 6px;
-	margin-bottom: 8%;
+	margin-bottom: 6%;
 	text-decoration: none;
 	display: block;
-/*	text-align: center;*/
-	font-size: 20px;
+	text-align: center;
+	font-size: 8px;
 }
 
 #last {
-	margin-top: 25%;
+	margin-top: 38%;
 }
 
 .active {
@@ -41,5 +41,5 @@
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
+	.sidenav a {font-size: 12px;}
 }
