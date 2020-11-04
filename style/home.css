@@ -74,3 +74,9 @@
 	background: #1D1D1D;
 	border-radius: 15px;
 }
+
+#inst {
+	position: absolute;
+	top: 90%;
+	left: 96%;
+}
